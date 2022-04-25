@@ -5,6 +5,11 @@ public class simplegit {
 	{
 		System.out.println("This is my first method to pull");
 	}
+	
+	public void m2()
+	{
+		System.out.println("This is my m2 method to commit and push ");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,7 +17,7 @@ public class simplegit {
 		simplegit s=new simplegit();
 		System.out.println("Hello Nil");
 		s.m1();
-		
+		s.m2();
 	}
 
 }
