@@ -10,6 +10,10 @@ public class simplegit {
 	{
 		System.out.println("This is my m2 method to commit and push ");
 	}
+	public void m3()
+	{
+		System.out.println("This is new m3 method add through branch member");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,6 +22,7 @@ public class simplegit {
 		System.out.println("Hello Nil");
 		s.m1();
 		s.m2();
+		s.m3();
 	}
 
 }
